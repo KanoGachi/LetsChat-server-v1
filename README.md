@@ -19,8 +19,8 @@
 
 | 字段  | 类型      | 约束                 | 备注             |
 | ----- | --------- | -------------------- | ---------------- |
-| uid   | bigint    | 联合主键（uid，fid） | id1              |
-| fid   | bigint    | 联合主键（uid，fid） | id2              |
+| uid   | bigint    | pk（uid，fid） | id1              |
+| fid   | bigint    | pk（uid，fid） | id2              |
 | ftime | timestamp |                      | 成为好友的时间点 |
 
 ### conv表
