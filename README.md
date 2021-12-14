@@ -44,7 +44,7 @@
 
 ## 配置数据库地址
 
-需要在`config.ini`中配置`mysqldsn="用户名:密码@tcp(IP地址:3306)/数据库名"`
+需要在`config/config.ini`中配置`mysqldsn="用户名:密码@tcp(IP地址:3306)/数据库名"`
 
 ## 启动服务器
 
